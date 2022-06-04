@@ -1,0 +1,131 @@
+ /* <----------------------------------> */
+/* <-------> Estrutura do site  <-----> */
+
+*{
+    margin:auto;
+    padding:0;
+}
+
+body{
+    background: #ffffffab;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#conteiner{
+    width: 100%;   
+    min-width:1300px;
+}
+
+  /* <---> Fim da estrutura  do site <----> */
+ /* <------------------------------------> */
+/* <---------> Link do site  <----------> */
+
+a{
+    text-decoration: none;
+}
+
+  /* <--------> Fim link do site  <-------> */
+ /* <------------------------------------> */
+/* <--> Inicio Navegação do site  <-----> */
+#navegacao{
+    width:80%
+}
+
+ul{
+    width:100%;
+    margin: 15px auto 15px auto;
+    text-align: center;
+}
+
+li{
+    border-radius: 15px;
+    display: inline-block;
+    color:black;
+    font-size: 1em;
+    margin-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li a:link{
+    border-radius: 15px;
+    color: black;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+li a:hover {
+    border-radius: 15px;
+    background-color:  rgba(0, 128, 0, 0.671);
+    color: white;
+}
+
+#marcadorFotos{
+    background-color: rgba(0, 128, 0, 0.671);
+}
+
+  /* <------> Fim da navegação do site  <---------> */ 
+ /* <--------------------------------------------> */ 
+/* <------> Inicio do conteúdo do site  <-------> */ 
+
+#conteudo{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#conteudo div{
+    display:inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 15px;
+}
+
+img{
+    width: 425px;
+    height: 280px;
+}
+
+#formatandoImg img{
+    width:1000px;
+    height:700px;
+}
+
+
+  /* <------> Fim do conteúdo do site  <-------> */ 
+ /* <-----------------------------------------> */ 
+/* <----> Inicio das paginas <------> */ 
+
+.pagination {
+    display: inline-block;
+
+}
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+a:hover.pagination{
+    background:  rgba(0, 128, 0, 0.671);
+}
+  /* <------> Fim do conteúdo do site  <-------> */ 
+ /* <-----------------------------------------> */ 
+/* <------> Inicio roda pé do site <---------> */
+
+#rodape{
+    background: gray;
+    height:150px;
+}
+
+#rodape div{
+    text-align: center;
+    width:1300px;
+}
+
+.rodape{
+    line-height: 155px;
+}
